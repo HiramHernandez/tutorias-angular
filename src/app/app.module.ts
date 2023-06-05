@@ -6,11 +6,15 @@ import { FormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgClassComponent } from './components/directivas/ng-class/ng-class.component';
+import { NgIfComponent } from './components/directivas/ng-if/ng-if.component';
+import { NgForComponent } from './components/directivas/ng-for/ng-for.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgIfComponent,
+    NgForComponent
   ],
   imports: [
     BrowserModule,
