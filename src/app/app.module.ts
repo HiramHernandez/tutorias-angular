@@ -10,6 +10,7 @@ import { NgIfComponent } from './components/directivas/ng-if/ng-if.component';
 import { NgForComponent } from './components/directivas/ng-for/ng-for.component';
 import { NgSwitchComponent } from './components/directivas/ng-switch/ng-switch.component';
 import { NgModelComponent } from './components/directivas/ng-model/ng-model.component';
+import { NgStyleComponent } from './components/directivas/ng-style/ng-style.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgModelComponent } from './components/directivas/ng-model/ng-model.comp
     NgIfComponent,
     NgForComponent,
     NgSwitchComponent,
-    NgModelComponent
+    NgModelComponent,
+    NgStyleComponent
   ],
   imports: [
     BrowserModule,
