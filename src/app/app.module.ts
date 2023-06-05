@@ -12,6 +12,7 @@ import { NgSwitchComponent } from './components/directivas/ng-switch/ng-switch.c
 import { NgModelComponent } from './components/directivas/ng-model/ng-model.component';
 import { NgStyleComponent } from './components/directivas/ng-style/ng-style.component';
 import { DirectivasComponent } from './components/directivas/directivas/directivas.component';
+import { DatepipeComponent } from './components/pipes/datepipe/datepipe.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DirectivasComponent } from './components/directivas/directivas/directiv
     NgSwitchComponent,
     NgModelComponent,
     NgStyleComponent,
-    DirectivasComponent
+    DirectivasComponent,
+    DatepipeComponent
   ],
   imports: [
     BrowserModule,

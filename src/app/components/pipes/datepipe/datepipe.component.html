@@ -1,0 +1,8 @@
+<p>Fecha (sin pipe) : {{ fecha }}</p>
+<p>Fecha (DatePipe) : {{ fecha | date}}</p>
+
+<p>
+    Fecha (DatePipe con '{{ formatoFecha }}') : {{ fecha | date:formatoFecha  | uppercase}} 
+    Y UpperCasePipe
+</p>
+<button (click)="cambiarFormatoFecha()">Cambiar Formato</button>
