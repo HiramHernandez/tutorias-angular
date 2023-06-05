@@ -18,6 +18,7 @@ import { DivisionEnteraPipe } from './pipes/division-entera.pipe';
 import { CustomPipeComponent } from './components/pipes/custom-pipe/custom-pipe.component';
 import { PipeAsincronoComponent } from './components/pipes/pipe-asincrono/pipe-asincrono.component';
 import { JsonpipeComponent } from './components/pipes/jsonpipe/jsonpipe.component';
+import { BibliotecaComponent } from './components/datamodel/biblioteca/biblioteca.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { JsonpipeComponent } from './components/pipes/jsonpipe/jsonpipe.componen
     DivisionEnteraPipe,
     CustomPipeComponent,
     PipeAsincronoComponent,
-    JsonpipeComponent
+    JsonpipeComponent,
+    BibliotecaComponent
   ],
   imports: [
     BrowserModule,

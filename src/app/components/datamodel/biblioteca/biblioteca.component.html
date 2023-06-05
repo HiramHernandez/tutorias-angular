@@ -1,0 +1,7 @@
+<h1>Biblioteca:</h1>
+<ul>
+    <li  class="list-group-item list-group-item-success" *ngFor="let book of books">
+        <h2>{{book.title | uppercase}}</h2>
+        <p class="description">{{book.author}}</p>
+    </li>
+</ul>
