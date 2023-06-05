@@ -1,0 +1,18 @@
+.divBg {
+    border: 10px solid green;
+    width: 70%;
+    background-color: #fef781;
+}
+
+.tamB {
+    height: 40px;
+    width: 50%;
+}
+
+.activo {
+    color: blue;
+}
+
+.inactivo {
+    color: red;
+}

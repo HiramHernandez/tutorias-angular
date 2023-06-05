@@ -11,6 +11,7 @@ import { NgForComponent } from './components/directivas/ng-for/ng-for.component'
 import { NgSwitchComponent } from './components/directivas/ng-switch/ng-switch.component';
 import { NgModelComponent } from './components/directivas/ng-model/ng-model.component';
 import { NgStyleComponent } from './components/directivas/ng-style/ng-style.component';
+import { DirectivasComponent } from './components/directivas/directivas/directivas.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NgStyleComponent } from './components/directivas/ng-style/ng-style.comp
     NgForComponent,
     NgSwitchComponent,
     NgModelComponent,
-    NgStyleComponent
+    NgStyleComponent,
+    DirectivasComponent
   ],
   imports: [
     BrowserModule,
