@@ -1,0 +1,25 @@
+{{title}}
+<br>
+<div class="container bg" [ngSwitch]="opcion">Valor Seleccionado:
+    <div class="container text-success" *ngSwitchCase="'A'">
+        Ha elegido la opción: <b>A</b>
+    </div> 
+    <div class="container text-success" *ngSwitchCase="'B'">
+        Ha elegido la opción: <b>B</b>
+    </div>
+    <div class="container text-success" *ngSwitchCase="'C'">
+        Ha elegido la opción: <b>C</b>
+    </div>
+    <div class="container text-danger" *ngSwitchDefault>
+        <b>Sin Selección</b>
+    </div>
+</div>
+<br>
+<div class="container">
+    <button class="btn btn-primary btn-lg" (click)="opcion='A'">A</button>
+    <button class="btn btn-primary btn-md" (click)="opcion='B'">B</button>
+    <button class="btn btn-primary btn-sm" (click)="opcion='C'">C</button>
+</div>
+<div class="container bg2">
+    <h5>Botón pulsado: {{opcion}}</h5>
+</div>
