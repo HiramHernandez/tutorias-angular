@@ -16,6 +16,7 @@ import { DatepipeComponent } from './components/pipes/datepipe/datepipe.componen
 import { NumberpipesComponent } from './components/pipes/numberpipes/numberpipes.component';
 import { DivisionEnteraPipe } from './pipes/division-entera.pipe';
 import { CustomPipeComponent } from './components/pipes/custom-pipe/custom-pipe.component';
+import { PipeAsincronoComponent } from './components/pipes/pipe-asincrono/pipe-asincrono.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CustomPipeComponent } from './components/pipes/custom-pipe/custom-pipe.
     DatepipeComponent,
     NumberpipesComponent,
     DivisionEnteraPipe,
-    CustomPipeComponent
+    CustomPipeComponent,
+    PipeAsincronoComponent
   ],
   imports: [
     BrowserModule,
