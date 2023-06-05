@@ -14,6 +14,8 @@ import { NgStyleComponent } from './components/directivas/ng-style/ng-style.comp
 import { DirectivasComponent } from './components/directivas/directivas/directivas.component';
 import { DatepipeComponent } from './components/pipes/datepipe/datepipe.component';
 import { NumberpipesComponent } from './components/pipes/numberpipes/numberpipes.component';
+import { DivisionEnteraPipe } from './pipes/division-entera.pipe';
+import { CustomPipeComponent } from './components/pipes/custom-pipe/custom-pipe.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { NumberpipesComponent } from './components/pipes/numberpipes/numberpipes
     NgStyleComponent,
     DirectivasComponent,
     DatepipeComponent,
-    NumberpipesComponent
+    NumberpipesComponent,
+    DivisionEnteraPipe,
+    CustomPipeComponent
   ],
   imports: [
     BrowserModule,
