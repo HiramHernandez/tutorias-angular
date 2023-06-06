@@ -20,6 +20,17 @@ import { PipeAsincronoComponent } from './components/pipes/pipe-asincrono/pipe-a
 import { JsonpipeComponent } from './components/pipes/jsonpipe/jsonpipe.component';
 import { BibliotecaComponent } from './components/datamodel/biblioteca/biblioteca.component';
 import { DatabindingComponent } from './components/datamodel/databinding/databinding.component';
+import { LibrolistaComponent } from './components/rounting/librolista/librolista.component';
+import { AutorlistaComponent } from './components/rounting/autorlista/autorlista.component';
+import { NotfoundComponent } from './components/rounting/notfound/notfound.component';
+import { LinksComponent } from './components/rounting/links.component';
+import { LibroDetalleComponent } from './components/rounting/libro-detalle/libro-detalle.component';
+import { LibroOpionesComponent } from './components/rounting/libro-opiones/libro-opiones.component';
+import { LibroImagenesComponent } from './components/rounting/libro-imagenes/libro-imagenes.component';
+
+import { LoggerService } from './services/logger.service';
+import { LibroService } from './services/libro.service';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +49,14 @@ import { DatabindingComponent } from './components/datamodel/databinding/databin
     PipeAsincronoComponent,
     JsonpipeComponent,
     BibliotecaComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    LibrolistaComponent,
+    AutorlistaComponent,
+    NotfoundComponent,
+    LinksComponent,
+    LibroDetalleComponent,
+    LibroOpionesComponent,
+    LibroImagenesComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +64,7 @@ import { DatabindingComponent } from './components/datamodel/databinding/databin
     CommonModule,
     FormsModule
   ],
-  providers: [],
+  providers: [LoggerService, LibroService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
