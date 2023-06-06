@@ -19,6 +19,7 @@ import { CustomPipeComponent } from './components/pipes/custom-pipe/custom-pipe.
 import { PipeAsincronoComponent } from './components/pipes/pipe-asincrono/pipe-asincrono.component';
 import { JsonpipeComponent } from './components/pipes/jsonpipe/jsonpipe.component';
 import { BibliotecaComponent } from './components/datamodel/biblioteca/biblioteca.component';
+import { DatabindingComponent } from './components/datamodel/databinding/databinding.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { BibliotecaComponent } from './components/datamodel/biblioteca/bibliotec
     CustomPipeComponent,
     PipeAsincronoComponent,
     JsonpipeComponent,
-    BibliotecaComponent
+    BibliotecaComponent,
+    DatabindingComponent
   ],
   imports: [
     BrowserModule,
