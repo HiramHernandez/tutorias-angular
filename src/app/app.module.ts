@@ -28,6 +28,10 @@ import { LibroDetalleComponent } from './components/rounting/libro-detalle/libro
 import { LibroOpionesComponent } from './components/rounting/libro-opiones/libro-opiones.component';
 import { LibroImagenesComponent } from './components/rounting/libro-imagenes/libro-imagenes.component';
 
+import { LoggerService } from './services/logger.service';
+import { LibroService } from './services/libro.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -60,7 +64,7 @@ import { LibroImagenesComponent } from './components/rounting/libro-imagenes/lib
     CommonModule,
     FormsModule
   ],
-  providers: [],
+  providers: [LoggerService, LibroService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
