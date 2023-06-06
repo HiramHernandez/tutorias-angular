@@ -20,6 +20,8 @@ import { PipeAsincronoComponent } from './components/pipes/pipe-asincrono/pipe-a
 import { JsonpipeComponent } from './components/pipes/jsonpipe/jsonpipe.component';
 import { BibliotecaComponent } from './components/datamodel/biblioteca/biblioteca.component';
 import { DatabindingComponent } from './components/datamodel/databinding/databinding.component';
+import { LoggerService } from './services/logger.service';
+import { LibroService } from './services/libro.service';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,7 @@ import { DatabindingComponent } from './components/datamodel/databinding/databin
     CommonModule,
     FormsModule
   ],
-  providers: [],
+  providers: [LoggerService, LibroService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
