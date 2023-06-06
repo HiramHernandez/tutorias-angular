@@ -24,6 +24,9 @@ import { LibrolistaComponent } from './components/rounting/librolista/librolista
 import { AutorlistaComponent } from './components/rounting/autorlista/autorlista.component';
 import { NotfoundComponent } from './components/rounting/notfound/notfound.component';
 import { LinksComponent } from './components/rounting/links.component';
+import { LibroDetalleComponent } from './components/rounting/libro-detalle/libro-detalle.component';
+import { LibroOpionesComponent } from './components/rounting/libro-opiones/libro-opiones.component';
+import { LibroImagenesComponent } from './components/rounting/libro-imagenes/libro-imagenes.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { LinksComponent } from './components/rounting/links.component';
     LibrolistaComponent,
     AutorlistaComponent,
     NotfoundComponent,
-    LinksComponent
+    LinksComponent,
+    LibroDetalleComponent,
+    LibroOpionesComponent,
+    LibroImagenesComponent
   ],
   imports: [
     BrowserModule,
