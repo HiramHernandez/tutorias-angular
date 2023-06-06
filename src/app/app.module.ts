@@ -20,6 +20,10 @@ import { PipeAsincronoComponent } from './components/pipes/pipe-asincrono/pipe-a
 import { JsonpipeComponent } from './components/pipes/jsonpipe/jsonpipe.component';
 import { BibliotecaComponent } from './components/datamodel/biblioteca/biblioteca.component';
 import { DatabindingComponent } from './components/datamodel/databinding/databinding.component';
+import { LibrolistaComponent } from './components/rounting/librolista/librolista.component';
+import { AutorlistaComponent } from './components/rounting/autorlista/autorlista.component';
+import { NotfoundComponent } from './components/rounting/notfound/notfound.component';
+import { LinksComponent } from './components/rounting/links.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +42,11 @@ import { DatabindingComponent } from './components/datamodel/databinding/databin
     PipeAsincronoComponent,
     JsonpipeComponent,
     BibliotecaComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    LibrolistaComponent,
+    AutorlistaComponent,
+    NotfoundComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
